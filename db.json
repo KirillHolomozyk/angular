@@ -1,0 +1,117 @@
+{
+    "lehkovi":[
+        {
+            "id":"1",
+            "mark": "Volkswagen",
+            "year":"2005",
+            "type": "sedan",
+            "size":"3800/1500",
+            "passangers":"5",
+            "engine":"1.6",
+            "power":"120",
+            "fuel":"8/100",
+            "speed":"220"
+        },
+        {
+            "id":"2",
+            "mark": "Volkswagen",
+            "year":"2005",
+            "type": "sedan",
+            "size":"3800/1500",
+            "passangers":"5",
+            "engine":"1.6",
+            "power":"120",
+            "fuel":"8/100",
+            "speed":"220"
+        },
+        {
+            "id":"3",
+            "mark": "Volkswagen",
+            "year":"2005",
+            "type": "sedan",
+            "size":"3800/1500",
+            "passangers":"5",
+            "engine":"1.6",
+            "power":"120",
+            "fuel":"8/100",
+            "speed":"220"
+        }
+    ],
+    "vantazhni":[
+        {
+            "id":"1",
+            "mark": "Volvo",
+            "year":"2005",
+            "type": "sedan",
+            "size":"3800/1500",
+            "passangers":"5",
+            "engine":"1.6",
+            "power":"120",
+            "fuel":"8/100",
+            "speed":"220"
+        },
+        {
+            "id":"2",
+            "mark": "Man",
+            "year":"2005",
+            "type": "sedan",
+            "size":"3800/1500",
+            "passangers":"5",
+            "engine":"1.6",
+            "power":"120",
+            "fuel":"8/100",
+            "speed":"220"
+        },
+        {
+            "id":"3",
+            "mark": "Isana",
+            "year":"2005",
+            "type": "sedan",
+            "size":"3800/1500",
+            "passangers":"5",
+            "engine":"1.6",
+            "power":"120",
+            "fuel":"8/100",
+            "speed":"220"
+        }
+        
+    ],
+    "special":[
+        {
+            "id":"1",
+            "mark": "Lamborgini",
+            "year":"2005",
+            "type": "sedan",
+            "size":"3800/1500",
+            "passangers":"5",
+            "engine":"1.6",
+            "power":"120",
+            "fuel":"8/100",
+            "speed":"220"
+        },
+        {
+            "id":"2",
+            "mark": "Kia",
+            "year":"2005",
+            "type": "sedan",
+            "size":"3800/1500",
+            "passangers":"5",
+            "engine":"1.6",
+            "power":"120",
+            "fuel":"8/100",
+            "speed":"220"
+        },
+        {
+            "id":"3",
+            "mark": "Hyndai",
+            "year":"2005",
+            "type": "sedan",
+            "size":"3800/1500",
+            "passangers":"5",
+            "engine":"1.6",
+            "power":"120",
+            "fuel":"8/100",
+            "speed":"220"
+        }
+    ]
+}

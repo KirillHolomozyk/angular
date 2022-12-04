@@ -1,0 +1,110 @@
+<section class="home-second1">
+    <a href="./index.html"><span class="picture">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                style="fill: rgba(0, 0, 0, 1);transform: msFilter">
+                <path
+                    d="m21.743 12.331-9-10c-.379-.422-1.107-.422-1.486 0l-9 10a.998.998 0 0 0-.17 1.076c.16.361.518.593.913.593h2v7a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-4h4v4a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-7h2a.998.998 0 0 0 .743-1.669z">
+                </path>
+            </svg>
+        </span></a>
+
+    <span class="title3">ІЄРАРХІЯ КАТЕГОРІЙ МАЙНА</span>
+</section>
+<section class="home-second2">
+    <div class="left_column1">
+        <div class="firstLeft1">
+            <button class="btn-1">Легкові<svg class="down" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                    viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: msFilter">
+                    <path d="M16.293 9.293 12 13.586 7.707 9.293l-1.414 1.414L12 16.414l5.707-5.707z"></path>
+                </svg>
+                <svg id="3" class="up" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                    style="fill: rgba(0, 0, 0, 1);transform: msFilter">
+                    <path d="m6.293 13.293 1.414 1.414L12 10.414l4.293 4.293 1.414-1.414L12 7.586z"></path>
+                </svg>
+            </button>
+        </div>
+        <div class="container-table">
+            <table class="styled-table">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Brand</th>
+                        <th>Year</th>
+                        <th>Type</th>
+                        <th>Size</th>
+                        <th>Passangers</th>
+                        <th>Engine</th>
+                        <th>Power</th>
+                        <th>Fuel</th>
+                        <th>Speed</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let car of cars">
+                        <td>{{ car.id }}</td>
+                        <td>{{ car.mark }}</td>
+                        <td>{{ car.year }}</td>
+                        <td>{{ car.type }}</td>
+                        <td>{{ car.size }}</td>
+                        <td>{{ car.passangers }}</td>
+                        <td>{{ car.engine }}</td>
+                        <td>{{ car.power }}</td>
+                        <td>{{ car.fuel }}</td>
+                        <td>{{ car.speed }}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="secondLeft1">
+            <button class="btn-1">Вантажні<svg class="down" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                    viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: msFilter">
+                    <path d="M16.293 9.293 12 13.586 7.707 9.293l-1.414 1.414L12 16.414l5.707-5.707z"></path>
+                </svg>
+                <svg id="3" class="up" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                    style="fill: rgba(0, 0, 0, 1);transform: msFilter">
+                    <path d="m6.293 13.293 1.414 1.414L12 10.414l4.293 4.293 1.414-1.414L12 7.586z"></path>
+                </svg>
+            </button>
+        </div>
+        <div class="thirdLeft1">
+            <button class="btn-1">Спеціальні<svg class="down" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                    viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: msFilter">
+                    <path d="M16.293 9.293 12 13.586 7.707 9.293l-1.414 1.414L12 16.414l5.707-5.707z"></path>
+                </svg>
+                <svg id="3" class="up" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                    style="fill: rgba(0, 0, 0, 1);transform: msFilter">
+                    <path d="m6.293 13.293 1.414 1.414L12 10.414l4.293 4.293 1.414-1.414L12 7.586z"></path>
+                </svg>
+            </button>
+
+        </div>
+    </div>
+    <div class="right_column1"></div>
+</section>
+<!-- <p *ngFor="let car of cars"[Car]>{{car.mark}}</p> -->
+<div class="sqtitle">
+    Підрозділи
+</div>
+<section class="squads">
+    <div class="sq1">
+        <div class="sq1-img"><img style="width: 175px;" src="assets/images/inf2.1.svg" alt=""></div>
+        <div class="sq2-text">Бригаду сформовано на базі трьох колишніх окремих батальйонів Тилу ЗС України: 1624-го
+            окремого автомобільного батальйону підвезення пального (військова частина А0326, раніше А0709 та В5975),
+            1647-го окремого автомобільного батальйону (в/ч А0331, раніше А1708 та В5912) та 104-го окремого
+            автомобільного батальйону, від якого новостворена бригада успадкувала порядковий та умовний номери.</div>
+    </div>
+    <div class="sq2">
+        <div class="sq2-img"><img style="width: 175px;" src="assets/images/inf2.2.jpeg" alt=""></div>
+        <div class="sq2-text">У лютому 1943 року дивізія була переведена в Діксмейде в Бельгії і використовувалася для
+            організації берегової оборони визначеного сектору. Дивізію підпорядкували 15-й армії. З 23 листопада 1943
+            року дивізія перебувала при головнокомандувачі військ вермахту на Заході, була реорганізована і остаточно
+            перетворена на 48-му піхотну дивізію в лютому 1944 року.</div>
+    </div>
+    <div class="sq3">
+        <div class="sq3-img"><img style="width: 175px;" src="assets/images/inf2.3.webp" alt=""></div>
+        <div class="sq3-text">З початком антитерористичної операції (АТО) військова частина розпочала виконання бойових
+            завдань за призначенням – 6 березня 2014 року з частини вийшла перша колона. В умовах проведення
+            антитерористичної операції колони частини здійснювали підвезення матеріальних засобів, боєприпасів,
+            паливно-мастильних матеріалів для багатьох військових частин.</div>
+    </div>
+</section>
