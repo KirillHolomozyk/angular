@@ -1,0 +1,44 @@
+[
+    {
+        "photo":"assets/images/image1-json.png",
+        "name": "Evgeniy",
+        "surname": "Jojolendovskiy",
+        "passport": "FE4326"
+        
+    },
+    {
+        "photo":"assets/images/image2-json.jpeg",
+        "name": "Denys",
+        "surname": "Chornoknyzhnyk",
+        "passport": "GG4526"
+    },
+    {
+        "photo":"assets/images/image3-json.jpeg",
+        "name": "Oleksa",
+        "surname": "Dovbush",
+        "passport": "FE6916"
+    },
+    {
+        "photo":"assets/images/image4-json.jpeg",
+        "name": "Ivan",
+        "surname": "Bagryanyy",
+        "passport": "FF0426"
+    },{
+        "photo":"assets/images/image5-json.png",
+        "name": "Mykola",
+        "surname": "Iychuk",
+        "passport": "FE4379"
+    },
+    {
+        "photo":"assets/images/image6-json.webp",
+        "name": "Robert",
+        "surname": "Ukrainez",
+        "passport": "EE4790"
+    },
+    {
+        "photo":"assets/images/image7-json.jpeg",
+        "name": "Petro",
+        "surname": "Courcenasto",
+        "passport": "FE0275"
+    }
+]

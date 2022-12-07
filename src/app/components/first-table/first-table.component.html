@@ -1,0 +1,42 @@
+<!-- <button (click)="toggle()" id="bt">
+    {{buttonName}}
+</button>
+<button (click)="toggle()" id="bt">
+    {{buttonName}}
+</button>
+<button (click)="toggle()" id="bt">
+    {{buttonName}}
+</button> -->
+
+<div class="container-table">
+    <table class="styled-table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Brand</th>
+                <th>Year</th>
+                <th>Type</th>
+                <th>Size</th>
+                <th>Passangers</th>
+                <th>Engine</th>
+                <th>Power</th>
+                <th>Fuel</th>
+                <th>Speed</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let car of cars">
+                <td>{{ car.id }}</td>
+                <td>{{ car.mark }}</td>
+                <td>{{ car.year }}</td>
+                <td>{{ car.type }}</td>
+                <td>{{ car.size }}</td>
+                <td>{{ car.passangers }}</td>
+                <td>{{ car.engine }}</td>
+                <td>{{ car.power }}</td>
+                <td>{{ car.fuel }}</td>
+                <td>{{ car.speed }}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

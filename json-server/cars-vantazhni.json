@@ -1,0 +1,120 @@
+[
+    {
+        "id": "1",
+        "mark": "Mercedes",
+        "year": "2015",
+        "type": "sedan",
+        "size": "5800/2000",
+        "passangers": "8",
+        "engine": "3.6",
+        "power": "520",
+        "fuel": "14/100",
+        "speed": "220"
+    },
+    {
+        "id": "2",
+        "mark": "BMW",
+        "year": "2010",
+        "type": "hatchback",
+        "size": "4800/2000",
+        "passangers": "2",
+        "engine": "2.6",
+        "power": "420",
+        "fuel": "8/100",
+        "speed": "320"
+    },
+    {
+        "id": "3",
+        "mark": "Man",
+        "year": "2018",
+        "type": "hatchback",
+        "size": "4500/2000",
+        "passangers": "6",
+        "engine": "2.2",
+        "power": "320",
+        "fuel": "11/100",
+        "speed": "220"
+    },
+    {
+        "id": "4",
+        "mark": "Renault Master",
+        "year": "2018",
+        "type": "sedan",
+        "size": "4000/1500",
+        "passangers": "4",
+        "engine": "2.3",
+        "power": "420",
+        "fuel": "10/100",
+        "speed": "280"
+    },{
+        "id": "5",
+        "mark": "Volkswagen",
+        "year": "2004",
+        "type": "sedan",
+        "size": "3800/1500",
+        "passangers": "4",
+        "engine": "2.2",
+        "power": "320",
+        "fuel": "10/100",
+        "speed": "220"
+    },
+    {
+        "id": "6",
+        "mark": "Renault Traffic",
+        "year": "2004",
+        "type": "sedan",
+        "size": "4000/1500",
+        "passangers": "4",
+        "engine": "2.2",
+        "power": "320",
+        "fuel": "10/100",
+        "speed": "220"
+    },{
+        "id": "7",
+        "mark": "GAZ",
+        "year": "2004",
+        "type": "sedan",
+        "size": "3800/1500",
+        "passangers": "8",
+        "engine": "2.2",
+        "power": "320",
+        "fuel": "15/100",
+        "speed": "200"
+    },
+    {
+        "id": "8",
+        "mark": "Mercedes",
+        "year": "2019",
+        "type": "sedan",
+        "size": "4000/1500",
+        "passangers": "5",
+        "engine": "2.2",
+        "power": "320",
+        "fuel": "11/100",
+        "speed": "300"
+    },
+    {
+        "id": "9",
+        "mark": "Isana",
+        "year": "2004",
+        "type": "hatchback",
+        "size": "3800/1500",
+        "passangers": "5",
+        "engine": "2.2",
+        "power": "400",
+        "fuel": "9/100",
+        "speed": "240"
+    },
+    {
+        "id": "10",
+        "mark": "Volkswagen",
+        "year": "2010",
+        "type": "sedan",
+        "size": "3800/1500",
+        "passangers": "4",
+        "engine": "2.4",
+        "power": "320",
+        "fuel": "10/100",
+        "speed": "280"
+    }
+]

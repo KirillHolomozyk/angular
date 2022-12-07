@@ -1,0 +1,24 @@
+<div class="container-table">
+    <table class="styled-table">
+        <thead>
+            <tr>
+                
+                <th>Photo</th>
+                <th>Name</th>
+                <th>Surname</th>
+                <th>Passport</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let car of cars">
+                
+                <td><img style="width: 200px;" src="{{car.photo}}" alt=""></td>
+                <td>{{ car.name }}</td>
+                <td>{{ car.surname }}</td>
+                <td>{{ car.passport }}</td>
+                
+            </tr>
+        </tbody>
+    </table>
+</div>

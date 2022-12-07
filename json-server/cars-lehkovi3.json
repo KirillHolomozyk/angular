@@ -1,8 +1,8 @@
 [
     {
         "id": "1",
-        "mark": "Volkswagen",
-        "year": "2005",
+        "mark": "Audi",
+        "year": "2010",
         "type": "sedan",
         "size": "3800/1500",
         "passangers": "5",
@@ -25,20 +25,20 @@
     },
     {
         "id": "3",
-        "mark": "Volkswagen",
-        "year": "2008",
-        "type": "sedan",
-        "size": "3800/1500",
+        "mark": "Ford",
+        "year": "2012",
+        "type": "hatchback",
+        "size": "3000/1500",
         "passangers": "4",
-        "engine": "2.0",
-        "power": "220",
-        "fuel": "7/100",
+        "engine": "2.2",
+        "power": "420",
+        "fuel": "10/100",
         "speed": "220"
     },
     {
         "id": "4",
-        "mark": "Mercedes",
-        "year": "2013",
+        "mark": "Mazda",
+        "year": "2015",
         "type": "sedan",
         "size": "2000/1500",
         "passangers": "4",
@@ -48,14 +48,26 @@
         "speed": "380"
     },{
         "id": "5",
-        "mark": "Volkswagen",
-        "year": "2004",
+        "mark": "Toyota",
+        "year": "2014",
         "type": "sedan",
-        "size": "3800/1500",
+        "size": "3000/2000",
         "passangers": "4",
-        "engine": "2.2",
+        "engine": "2.6",
+        "power": "320",
+        "fuel": "12/100",
+        "speed": "300"
+    },
+    {
+        "id": "6",
+        "mark": "Skoda",
+        "year": "2004",
+        "type": "hatchback",
+        "size": "3500/2500",
+        "passangers": "5",
+        "engine": "1.8",
         "power": "320",
         "fuel": "10/100",
-        "speed": "220"
+        "speed": "200"
     }
 ]

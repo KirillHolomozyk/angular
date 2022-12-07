@@ -1,8 +1,8 @@
 [
     {
         "id": "1",
-        "mark": "Volkswagen",
-        "year": "2005",
+        "mark": "KIA",
+        "year": "2000",
         "type": "sedan",
         "size": "3800/1500",
         "passangers": "5",
@@ -13,7 +13,7 @@
     },
     {
         "id": "2",
-        "mark": "BMW",
+        "mark": "Opel",
         "year": "2010",
         "type": "sedan",
         "size": "3800/1500",
@@ -25,7 +25,7 @@
     },
     {
         "id": "3",
-        "mark": "Volkswagen",
+        "mark": "MAN",
         "year": "2008",
         "type": "sedan",
         "size": "3800/1500",
@@ -41,21 +41,33 @@
         "year": "2013",
         "type": "sedan",
         "size": "2000/1500",
-        "passangers": "4",
+        "passangers": "5",
         "engine": "2.6",
         "power": "420",
-        "fuel": "12/100",
-        "speed": "380"
+        "fuel": "10/100",
+        "speed": "200"
     },{
         "id": "5",
-        "mark": "Volkswagen",
-        "year": "2004",
+        "mark": "Totota Land Cruiser",
+        "year": "2014",
         "type": "sedan",
-        "size": "3800/1500",
+        "size": "4000/2000",
         "passangers": "4",
         "engine": "2.2",
         "power": "320",
-        "fuel": "10/100",
-        "speed": "220"
+        "fuel": "11/100",
+        "speed": "300"
+    },
+    {
+        "id": "6",
+        "mark": "BMW",
+        "year": "2014",
+        "type": "sedan",
+        "size": "3800/1500",
+        "passangers": "6",
+        "engine": "2.4",
+        "power": "420",
+        "fuel": "14/100",
+        "speed": "300"
     }
 ]

@@ -1,7 +1,7 @@
 [
     {
         "id": "1",
-        "mark": "Volkswagen",
+        "mark": "Mitsubishi",
         "year": "2005",
         "type": "sedan",
         "size": "3800/1500",
@@ -13,7 +13,7 @@
     },
     {
         "id": "2",
-        "mark": "BMW",
+        "mark": "Ford",
         "year": "2010",
         "type": "sedan",
         "size": "3800/1500",
@@ -25,8 +25,8 @@
     },
     {
         "id": "3",
-        "mark": "Volkswagen",
-        "year": "2008",
+        "mark": "Infiniti",
+        "year": "2018",
         "type": "sedan",
         "size": "3800/1500",
         "passangers": "4",
@@ -37,12 +37,12 @@
     },
     {
         "id": "4",
-        "mark": "Mercedes",
+        "mark": "Cadillac",
         "year": "2013",
         "type": "sedan",
-        "size": "2000/1500",
+        "size": "4000/2000",
         "passangers": "4",
-        "engine": "2.6",
+        "engine": "3.0",
         "power": "420",
         "fuel": "12/100",
         "speed": "380"
@@ -57,5 +57,17 @@
         "power": "320",
         "fuel": "10/100",
         "speed": "220"
+    },
+    {
+        "id": "6",
+        "mark": "Toyota",
+        "year": "2014",
+        "type": "sedan",
+        "size": "3500/1500",
+        "passangers": "4",
+        "engine": "2.5",
+        "power": "400",
+        "fuel": "15/100",
+        "speed": "320"
     }
 ]

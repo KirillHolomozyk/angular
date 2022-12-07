@@ -13,71 +13,111 @@
 <section class="home-second2">
     <div class="left_column1">
         <div class="firstLeft1">
-            <button class="btn-1">Легкові<svg class="down" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                    viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: msFilter">
+            <button (click)="toggle1()" id="bt" class="btn-1">Легкові<svg *ngIf="!showarr" class="down"
+                    xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                    style="fill: rgba(0, 0, 0, 1);transform: msFilter">
                     <path d="M16.293 9.293 12 13.586 7.707 9.293l-1.414 1.414L12 16.414l5.707-5.707z"></path>
                 </svg>
-                <svg id="3" class="up" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                <svg *ngIf="showarr" id="3" class="up" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                     style="fill: rgba(0, 0, 0, 1);transform: msFilter">
                     <path d="m6.293 13.293 1.414 1.414L12 10.414l4.293 4.293 1.414-1.414L12 7.586z"></path>
                 </svg>
             </button>
         </div>
-        <div class="container-table">
-            <table class="styled-table">
-                <thead>
-                    <tr>
-                        <th>ID</th>
-                        <th>Brand</th>
-                        <th>Year</th>
-                        <th>Type</th>
-                        <th>Size</th>
-                        <th>Passangers</th>
-                        <th>Engine</th>
-                        <th>Power</th>
-                        <th>Fuel</th>
-                        <th>Speed</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr *ngFor="let car of cars">
-                        <td>{{ car.id }}</td>
-                        <td>{{ car.mark }}</td>
-                        <td>{{ car.year }}</td>
-                        <td>{{ car.type }}</td>
-                        <td>{{ car.size }}</td>
-                        <td>{{ car.passangers }}</td>
-                        <td>{{ car.engine }}</td>
-                        <td>{{ car.power }}</td>
-                        <td>{{ car.fuel }}</td>
-                        <td>{{ car.speed }}</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-        <div class="secondLeft1">
-            <button class="btn-1">Вантажні<svg class="down" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                    viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: msFilter">
-                    <path d="M16.293 9.293 12 13.586 7.707 9.293l-1.414 1.414L12 16.414l5.707-5.707z"></path>
-                </svg>
-                <svg id="3" class="up" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                    style="fill: rgba(0, 0, 0, 1);transform: msFilter">
-                    <path d="m6.293 13.293 1.414 1.414L12 10.414l4.293 4.293 1.414-1.414L12 7.586z"></path>
-                </svg>
-            </button>
-        </div>
-        <div class="thirdLeft1">
-            <button class="btn-1">Спеціальні<svg class="down" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                    viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: msFilter">
-                    <path d="M16.293 9.293 12 13.586 7.707 9.293l-1.414 1.414L12 16.414l5.707-5.707z"></path>
-                </svg>
-                <svg id="3" class="up" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                    style="fill: rgba(0, 0, 0, 1);transform: msFilter">
-                    <path d="m6.293 13.293 1.414 1.414L12 10.414l4.293 4.293 1.414-1.414L12 7.586z"></path>
-                </svg>
-            </button>
+        <ng-container *ngIf="show">
+            <div class="toggle-btns">
+                <button (click)="toggle2()" class="">Підрозділ 100</button>
+                <div class="table-center">
+                    <ng-container *ngIf="showtable">
+                        <app-first-table></app-first-table>
+                    </ng-container>
+                </div>
 
+                <button (click)="toggle3()" class="">Підрозділ400</button>
+                <ng-container *ngIf="showtable1">
+                    <div class="table-center">
+                        <app-first1 class="2-table"></app-first1>
+                    </div>
+                </ng-container>
+                <button (click)="toggle4()" class="">Підрозділ 670</button>
+                <ng-container *ngIf="showtable2">
+                    <div class="table-center">
+                        <app-first1 class="3-table"></app-first1>
+                    </div>
+                </ng-container>
+            </div>
+        </ng-container>
+
+
+        <div class="secondLeft1">
+            <button (click)="toggle20()" class="btn-1">Вантажні<svg *ngIf="!showarr2" class="down" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                    viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: msFilter">
+                    <path d="M16.293 9.293 12 13.586 7.707 9.293l-1.414 1.414L12 16.414l5.707-5.707z"></path>
+                </svg>
+                <svg *ngIf="showarr2" id="3" class="up" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                    style="fill: rgba(0, 0, 0, 1);transform: msFilter">
+                    <path d="m6.293 13.293 1.414 1.414L12 10.414l4.293 4.293 1.414-1.414L12 7.586z"></path>
+                </svg>
+            </button>
         </div>
+        <ng-container *ngIf="show2">
+            <div class="toggle-btns">
+                <button (click)="toggle21()" class="">Підрозділ 100</button>
+                <div class="table-center">
+                    <ng-container *ngIf="showtable20">
+                        <app-second-table></app-second-table>
+                    </ng-container>
+                </div>
+
+                <button (click)="toggle22()" class="">Підрозділ400</button>
+                <ng-container *ngIf="showtable21">
+                    <div class="table-center">
+                        <app-second12-table></app-second12-table>
+                    </div>
+                </ng-container>
+                <button (click)="toggle23()" class="">Підрозділ 670</button>
+                <ng-container *ngIf="showtable22">
+                    <div class="table-center">
+                        <app-second13-table></app-second13-table>
+                    </div>
+                </ng-container>
+            </div>
+        </ng-container>
+        <div class="thirdLeft1">
+            <button (click)="toggle30()" class="btn-1">Спеціальні<svg *ngIf="!showarr3" class="down" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                    viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: msFilter">
+                    <path d="M16.293 9.293 12 13.586 7.707 9.293l-1.414 1.414L12 16.414l5.707-5.707z"></path>
+                </svg>
+                <svg *ngIf="showarr3" id="3" class="up" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                    style="fill: rgba(0, 0, 0, 1);transform: msFilter">
+                    <path d="m6.293 13.293 1.414 1.414L12 10.414l4.293 4.293 1.414-1.414L12 7.586z"></path>
+                </svg>
+            </button>
+        </div>
+        <ng-container *ngIf="show3">
+            <div class="toggle-btns">
+                <button (click)="toggle31()" class="">Підрозділ 100</button>
+                <div class="table-center">
+                    <ng-container *ngIf="showtable30">
+                        <app-third-table></app-third-table>
+                    </ng-container>
+                </div>
+
+                <button (click)="toggle32()" class="">Підрозділ400</button>
+                <ng-container *ngIf="showtable31">
+                    <div class="table-center">
+                        <app-third12-table></app-third12-table>
+                    </div>
+                </ng-container>
+                <button (click)="toggle33()" class="">Підрозділ 670</button>
+                <ng-container *ngIf="showtable32">
+                    <div class="table-center">
+                        <app-third13-table></app-third13-table>
+                    </div>
+                </ng-container>
+            </div>
+        </ng-container>
+
     </div>
     <div class="right_column1"></div>
 </section>

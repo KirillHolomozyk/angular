@@ -1,0 +1,97 @@
+[
+    {
+        "id": "1",
+        "mark": "Land Cruiser",
+        "year": "2010",
+        "type": "sedan",
+        "size": "4000/2000",
+        "passangers": "6",
+        "engine": "2.4",
+        "power": "420",
+        "fuel": "11/100",
+        "speed": "320"
+    },
+    {
+        "id": "2",
+        "mark": "Aston Martin",
+        "year": "2011",
+        "type": "sedan",
+        "size": "3000/2000",
+        "passangers": "4",
+        "engine": "2.8",
+        "power": "320",
+        "fuel": "8/100",
+        "speed": "420"
+    },
+    {
+        "id": "3",
+        "mark": "Ferrari",
+        "year": "2008",
+        "type": "sedan",
+        "size": "3000/1500",
+        "passangers": "4",
+        "engine": "2.8",
+        "power": "220",
+        "fuel": "10/100",
+        "speed": "420"
+    },
+    {
+        "id": "4",
+        "mark": "Renault",
+        "year": "2013",
+        "type": "sedan",
+        "size": "2000/1500",
+        "passangers": "4",
+        "engine": "2.6",
+        "power": "420",
+        "fuel": "12/100",
+        "speed": "380"
+    },{
+        "id": "5",
+        "mark": "Volkswagen",
+        "year": "2004",
+        "type": "sedan",
+        "size": "3800/1500",
+        "passangers": "4",
+        "engine": "2.2",
+        "power": "320",
+        "fuel": "10/100",
+        "speed": "220"
+    },
+    {
+        "id": "6",
+        "mark": "Volvo",
+        "year": "2010",
+        "type": "hatchback",
+        "size": "4000/2000",
+        "passangers": "4",
+        "engine": "2.5",
+        "power": "420",
+        "fuel": "10/100",
+        "speed": "280"
+    },
+    {
+        "id": "7",
+        "mark": "Peugeot",
+        "year": "2017",
+        "type": "sedan",
+        "size": "3000/1500",
+        "passangers": "5",
+        "engine": "2.4",
+        "power": "320",
+        "fuel": "12/100",
+        "speed": "240"
+    },
+    {
+        "id": "8",
+        "mark": "Nissan",
+        "year": "2010",
+        "type": "hatchback",
+        "size": "4800/2000",
+        "passangers": "6",
+        "engine": "2.8",
+        "power": "520",
+        "fuel": "13/100",
+        "speed": "320"
+    }
+]
