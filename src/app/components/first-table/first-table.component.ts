@@ -7,10 +7,8 @@ import carsData from '../../../../json-server/cars-lehkovi.json';
   styleUrls: ['./first-table.component.scss']
 })
 export class FirstTableComponent {
-  // @Input() task: Car;
   cars: Car[] = carsData;
   public show:boolean = false;
-  // public buttonName:any = 'Show';
 
   
 }
