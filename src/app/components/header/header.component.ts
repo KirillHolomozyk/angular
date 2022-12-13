@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import photoData from '../../../../json-server/photos.json';
+
 
 @Component({
   selector: 'app-header',
@@ -6,5 +8,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent {
+  photos: Photo[] = photoData;
+  public show:boolean = false;
 
+  
+}
+
+interface Photo{
+  id: String,
+  photo: String
 }

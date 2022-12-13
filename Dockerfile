@@ -1,8 +1,10 @@
-FROM node:latest as node
-WORKDIR /app
-COPY . .
+FROM node:alpine AS build
+WORKDIR /usr/src/app
+COPY package.json package-lock.json ./
 RUN npm install
-RUN npm run build --prod
-#stage 2
+COPY . .
+RUN npm run build
+
 FROM nginx:alpine
-COPY --from=node /app/dist/demo-app /usr/share/nginx/html
+COPY nginx.conf /etc/nginx/nginx.conf
+COPY --from=build /usr/src/app/dist/angular-course /usr/share/nginx/html

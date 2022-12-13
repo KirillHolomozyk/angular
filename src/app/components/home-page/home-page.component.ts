@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import photoData from '../../../../json-server/photos.json';
+
 
 @Component({
   selector: 'app-home-page',
@@ -39,5 +41,15 @@ export class HomePageComponent {
   //   }
   // }
 
+  photos: Photo[] = photoData;
+  public show:boolean = false;
+
+  
 }
+
+interface Photo{
+  id: String,
+  photo: String
+}
+
 

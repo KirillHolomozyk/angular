@@ -1,4 +1,9 @@
 <header id="1">
-    <img src="assets/images/photo_header.jpeg" alt="" class="header_img">
+    
+    <ng-container *ngFor="let photo of photos">
+        <img *ngIf="photo.id == '1'" src={{photo.photo}} alt="" class="header_img">
+    </ng-container>
+
+    <!-- <img src="assets/images/photo_header.jpeg" alt="" class="header_img"> -->
     <div class="header_text">ОБЛІК АВТОМОБІЛЬНОЇ ТЕХНІКИ ПІДРОЗДІЛУ</div>
 </header>

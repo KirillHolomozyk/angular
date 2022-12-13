@@ -12,32 +12,44 @@
 </section>
 <section class="lastinfo">
     <div class="inf1">
-        <div class="inf1-img"><img style="width: 200px;" src="assets/images/infL1.jpeg" alt=""></div>
+        <ng-container *ngFor="let photo of photos">
+            <div class="inf1-img"><img *ngIf="photo.id == '5'" style="width: 200px;" src={{photo.photo}} alt=""></div>
+        </ng-container>
         <div class="inf1text">Війська рф 28 разів за добу обстріляли Херсонщину, поцілили в обласний онкодиспансер: 
             російські війська 28 разів за добу 2 грудня обстріляли територію Херсонщини, поцілили в обласний онкодиспансер.</div>
     </div>
     <div class="inf2">
-        <div class="inf2-img"><img style="width: 200px;" src="assets/images/infL2.jpeg" alt=""></div>
+        <ng-container *ngFor="let photo of photos">
+            <div class="inf2-img"><img *ngIf="photo.id == '6'" style="width: 200px;" src={{photo.photo}} alt=""></div>
+        </ng-container>
         <div class="inf2-text">Кириленко показав наслідки обстрілів Донеччини за добу. 
             Унаслідок обстрілів Донецької області військовими рф станом на ранок 3 грудня в регіоні пошкоджено багатоповерхівки, зруйновано підприємства та поранено цивільних.</div>
     </div>
     <div class="inf3">
-        <div class="inf3-img"><img style="width: 200px;" src="assets/images/infL3.jpeg" alt=""></div>
+        <ng-container *ngFor="let photo of photos">
+            <div class="inf3-img"><img *ngIf="photo.id == '7'" style="width: 200px;" src={{photo.photo}} alt=""></div>
+        </ng-container>
         <div class="inf3-text">рф може завдати нового ракетного удару, коли настануть сильні морози – Подоляк: 
             росія може завдати нового масованого ракетного удару по Україні, коли настануть сильні морози.</div>
     </div>
     <div class="inf4">
-        <div class="inf4-img"><img style="width: 200px;" src="assets/images/infL4.jpeg" alt=""></div>
+        <ng-container *ngFor="let photo of photos">
+            <div class="inf4-img"><img *ngIf="photo.id == '8'" style="width: 200px;" src={{photo.photo}} alt=""></div>
+        </ng-container>
         <div class="inf4-text">росіяни за добу обстріляли вісім областей України. 
             Армія російської федерації за добу здійснила атаки на житло та цивільну інфраструктуру у восьми обла</div>
     </div>
     <div class="inf5">
-        <div class="inf5-img"><img style="width: 200px;" src="assets/images/infL5.jpeg" alt=""></div>
+        <ng-container *ngFor="let photo of photos">
+            <div class="inf5-img"><img *ngIf="photo.id == '9'" style="width: 200px;" src={{photo.photo}} alt=""></div>
+        </ng-container>
         <div class="inf5-text">В Україні - хвилина мовчання. Пам'яті загиблих у війні проти росії. 
             В Україні - загальнонаціональна хвилина мовчання для вшанування пам'яті загиблих унаслідок збройної </div>
     </div>
     <div class="inf6">
-        <div class="inf6-img"><img style="width: 200px;" src="assets/images/infL6.jpeg" alt=""></div>
+        <ng-container *ngFor="let photo of photos">
+            <div class="inf6-img"><img *ngIf="photo.id == '10'" style="width: 200px;" src={{photo.photo}} alt=""></div>
+        </ng-container>
         <div class="inf6-text">ЗСУ минулої доби відбили атаки ворога біля шести населених пунктів. 
             За минулу добу підрозділи Сил оборони України відбили атаки російських загарбників в районах населених пунктів Червонопопівка Луганської області та Соледар, Опитне, Невельське, Красногорівка і Мар’їнка на Донеччині.</div>
     </div>
